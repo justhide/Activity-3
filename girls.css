@@ -1,0 +1,146 @@
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Note: Header */
+header {
+    background-color: #4A4A4A; 
+    color: #B87333; 
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Note: Back to Cars button */
+#back-to-cars {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff; 
+    border: none;
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#back-to-cars:hover {
+    background-color: #0056b3; 
+}
+
+
+main {
+    padding: 20px;
+    background-color: #708090; 
+    color: #800020; 
+}
+
+/* Note: Section */
+section {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* Note: Section headers */
+section h2 {
+    font-family: vollkorn;
+    font-size: 30px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Note: Section paragraphs */
+section p {
+    font-family: vollkorn;
+    font-style: oblique;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Note: Image container  */
+.image-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+/* Note: Image styling */
+.image-container img {
+    width: 300px; 
+    height: 400px;
+    object-fit: cover;
+    margin: 0 10px; 
+}
+
+video {
+    width: 300px; 
+    height: 400px;
+    object-fit: cover;
+    margin: 0 10px; 
+}
+
+/* Note: Footer  */
+footer {
+    background-color: #4A4A4A; 
+    color: #B87333; 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Note: Back to Top button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; 
+    border: none;
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3; 
+}
